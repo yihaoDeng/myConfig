@@ -1,1 +1,2 @@
 # myConfig
+vim config
