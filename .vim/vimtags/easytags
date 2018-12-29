@@ -1,0 +1,208 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-i>n	/Users/wink/.vimrc	/^nmap <silent> <C-i>n :MBEbn<CR>$/;"	m	language:Vim
+<C-i>p	/Users/wink/.vimrc	/^nmap <silent> <C-i>p :MBEbp<CR>$/;"	m	language:Vim
+<C-p>b	/Users/wink/.vimrc	/^nmap <C-p>b :CtrlPBuffer<CR>$/;"	m	language:Vim
+<C-p>f	/Users/wink/.vimrc	/^nmap <C-p>f :CtrlP<CR>$/;"	m	language:Vim
+<C-x>d	/Users/wink/.vimrc	/^nmap <C-x>d :GoDef<CR>$/;"	m	language:Vim
+<C-x>f	/Users/wink/.vimrc	/^nmap <C-x>f :YcmCompleter GoToDefinition<CR>$/;"	m	language:Vim
+<C-x>g	/Users/wink/.vimrc	/^nmap <C-x>g :YcmCompleter GoToDeclaration<CR>$/;"	m	language:Vim
+<Esc>OF	/Users/wink/.vimrc	/^    map <Esc>OF <End>$/;"	m	language:Vim
+<Esc>OF	/Users/wink/.vimrc	/^    map! <Esc>OF <End>$/;"	m	language:Vim
+<Esc>OH	/Users/wink/.vimrc	/^    map <Esc>OH <Home>$/;"	m	language:Vim
+<Esc>OH	/Users/wink/.vimrc	/^    map! <Esc>OH <Home>$/;"	m	language:Vim
+<F12>	/Users/wink/.vimrc	/^nnoremap <silent> <F12> :A<CR>$/;"	m	language:Vim
+<F2>	/Users/wink/.vimrc	/^nmap <F2> :syntax enable<CR>$/;"	m	language:Vim
+<F3>	/Users/wink/.vimrc	/^nmap <F3> :q!<CR>:syntax enable<CR>$/;"	m	language:Vim
+<F4>	/Users/wink/.vimrc	/^nmap <F4> :bd<CR>:syntax enable<CR>$/;"	m	language:Vim
+<F5>	/Users/wink/.vimrc	/^nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>$/;"	m	language:Vim
+<F8>	/Users/wink/.vimrc	/^nmap <F8> :TagbarToggle<CR>$/;"	m	language:Vim
+<F9>	/Users/wink/.vimrc	/^nmap <F9> :NERDTreeToggle .\/<CR>$/;"	m	language:Vim
+<leader>il	/Users/wink/.vimrc	/^map <leader>il :IndentLinesToggle<CR>$/;"	m	language:Vim
+address	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar *address;                   \/**< listening address of the proxy *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+b:easytags_auto_highlight	/Users/wink/.vimrc	/^let b:easytags_auto_highlight = 0$/;"	v	language:Vim
+backend_addresses	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **backend_addresses;        \/**< read-write backends *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+C	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^#define C(/;"	d	language:C++	file:
+C	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^#define C(/;"	d	language:C++	file:
+charset	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar *charset;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+charset	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^char* charset[64] = {NULL, "big5", NULL, NULL, NULL, NULL, NULL, NULL, "latin1", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, "gb2312", NULL, NULL, NULL, "gbk", NULL, NULL, NULL, NULL, "utf8", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, "utf8mb4", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, "binary"};$/;"	v	language:C++
+chassis_plugin_config	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^struct chassis_plugin_config {$/;"	s	language:C++	file:
+check_flags	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void check_flags(GPtrArray* tokens, network_mysqld_con* con, int* need_keep_conn, int* is_write_sql) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con, int* need_keep_conn, int* is_write_sql)
+check_flags	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void check_flags(GPtrArray* tokens, network_mysqld_con* con) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con)
+check_state	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void* check_state(chassis *chas) {$/;"	f	language:C++	signature:(chassis *chas)
+check_state	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void* check_state(network_backends_t* bs) {$/;"	f	language:C++	signature:(network_backends_t* bs)
+client_ips	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **client_ips;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+column_name	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar* column_name;$/;"	m	language:C++	struct:__anon1	file:
+combine_sql	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^GPtrArray* combine_sql(GPtrArray* tokens, gint table, GArray* columns, guint num) {$/;"	f	language:C++	signature:(GPtrArray* tokens, gint table, GArray* columns, guint num)
+config	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^chassis_plugin_config *config = NULL;$/;"	v	language:C++
+CRASHME	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^#define CRASHME(/;"	d	language:C++	file:
+CRASHME	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^#define CRASHME(/;"	d	language:C++	file:
+db_groups	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GPtrArray  *db_groups; 		\/\/ prt array of db_group_t $/;"	m	language:C++	struct:chassis_plugin_config	file:
+db_table_t	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^} db_table_t;$/;"	t	language:C++	typeref:struct:__anon1	file:
+dt_table	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GHashTable *dt_table;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+fix_bug_25371	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint fix_bug_25371;               \/**< suppress the second ERR packet of bug #25371 *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+g:airline_branch_prefix	/Users/wink/.vimrc	/^                let g:airline_branch_prefix     = '⭠'$/;"	v	language:Vim
+g:airline_enable_branch	/Users/wink/.vimrc	/^                let g:airline_enable_branch     = 1$/;"	v	language:Vim
+g:airline_enable_syntastic	/Users/wink/.vimrc	/^                let g:airline_enable_syntastic  = 1$/;"	v	language:Vim
+g:airline_left_alt_sep	/Users/wink/.vimrc	/^                let g:airline_left_alt_sep      = '⮁'$/;"	v	language:Vim
+g:airline_left_sep	/Users/wink/.vimrc	/^                let g:airline_left_sep          = '⮀'$/;"	v	language:Vim
+g:airline_linecolumn_prefix	/Users/wink/.vimrc	/^                let g:airline_linecolumn_prefix = '⭡'$/;"	v	language:Vim
+g:airline_powerline_fonts	/Users/wink/.vimrc	/^                let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_powerline_fonts	/Users/wink/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_readonly_symbol	/Users/wink/.vimrc	/^                let g:airline_readonly_symbol   = '⭤'$/;"	v	language:Vim
+g:airline_right_alt_sep	/Users/wink/.vimrc	/^                let g:airline_right_alt_sep     = '⮃'$/;"	v	language:Vim
+g:airline_right_sep	/Users/wink/.vimrc	/^                let g:airline_right_sep         = '⮂'$/;"	v	language:Vim
+g:airline_symbols	/Users/wink/.vimrc	/^                        let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/Users/wink/.vimrc	/^                let g:airline_symbols.paste = 'Þ'$/;"	v	language:Vim
+g:ctrlp_working_path_mode	/Users/wink/.vimrc	/^let g:ctrlp_working_path_mode = 'ca'$/;"	v	language:Vim
+g:ctrlsf_ackprg	/Users/wink/.vimrc	/^let g:ctrlsf_ackprg = 'ag'$/;"	v	language:Vim
+g:ctrlsf_auto_close	/Users/wink/.vimrc	/^let g:ctrlsf_auto_close = 1$/;"	v	language:Vim
+g:ctrlsf_context	/Users/wink/.vimrc	/^let g:ctrlsf_context = '-B 3 -A 3'$/;"	v	language:Vim
+g:easytags_async	/Users/wink/.vimrc	/^let g:easytags_async=1  "后台执行ctags$/;"	v	language:Vim
+g:easytags_auto_update	/Users/wink/.vimrc	/^let g:easytags_auto_update = 0 " stop autoupdate, use :UpdateTags to update manually$/;"	v	language:Vim
+g:easytags_cmd	/Users/wink/.vimrc	/^let g:easytags_cmd = '\/usr\/local\/bin\/ctags'$/;"	v	language:Vim
+g:easytags_dynamic_files	/Users/wink/.vimrc	/^let g:easytags_dynamic_files='~\/.vim\/vimtags'$/;"	v	language:Vim
+g:easytags_file	/Users/wink/.vimrc	/^let g:easytags_file = '~\/.vim\/vimtags\/easytags'$/;"	v	language:Vim
+g:easytags_on_cursorhold	/Users/wink/.vimrc	/^let g:easytags_on_cursorhold=0 " make it faster$/;"	v	language:Vim
+g:easytags_opts	/Users/wink/.vimrc	/^let g:easytags_opts = ['--fields=+lS']$/;"	v	language:Vim
+g:go_highlight_functions	/Users/wink/.vimrc	/^let g:go_highlight_functions = 1$/;"	v	language:Vim
+g:go_highlight_methods	/Users/wink/.vimrc	/^let g:go_highlight_methods = 1$/;"	v	language:Vim
+g:go_highlight_structs	/Users/wink/.vimrc	/^let g:go_highlight_structs = 1$/;"	v	language:Vim
+g:miniBufExplMapCTabSwitchBufs	/Users/wink/.vimrc	/^let g:miniBufExplMapCTabSwitchBufs = 1$/;"	v	language:Vim
+g:miniBufExplMapWindowNavArrows	/Users/wink/.vimrc	/^let g:miniBufExplMapWindowNavArrows = 1$/;"	v	language:Vim
+g:miniBufExplMapWindowNavVim	/Users/wink/.vimrc	/^let g:miniBufExplMapWindowNavVim = 1$/;"	v	language:Vim
+g:Powerline_symbols	/Users/wink/.vimrc	/^let g:Powerline_symbols = 'fancy'$/;"	v	language:Vim
+g:tagbar_left	/Users/wink/.vimrc	/^let g:tagbar_left = 1$/;"	v	language:Vim
+g:tagbar_width	/Users/wink/.vimrc	/^let g:tagbar_width = 40$/;"	v	language:Vim
+g:winManagerWindowLayout	/Users/wink/.vimrc	/^let g:winManagerWindowLayout='FileExplorer'$/;"	v	language:Vim
+g:ycm_autoclose_preview_window_after_completion	/Users/wink/.vimrc	/^let g:ycm_autoclose_preview_window_after_completion = 1$/;"	v	language:Vim
+g:ycm_collect_identifiers_from_tag_files	/Users/wink/.vimrc	/^let g:ycm_collect_identifiers_from_tag_files = 1$/;"	v	language:Vim
+g:ycm_confirm_extra_conf	/Users/wink/.vimrc	/^let g:ycm_confirm_extra_conf=0$/;"	v	language:Vim
+g:ycm_global_ycm_extra_conf	/Users/wink/.vimrc	/^let g:ycm_global_ycm_extra_conf='~\/.vim\/bundle\/YouCompleteMe\/third_party\/ycmd\/cpp\/ycm\/.ycm_extra_conf.py'$/;"	v	language:Vim
+g:ycm_key_invoke_completion	/Users/wink/.vimrc	/^let g:ycm_key_invoke_completion = '<C-Space>'$/;"	v	language:Vim
+g:ycm_seed_identifiers_with_syntax	/Users/wink/.vimrc	/^let g:ycm_seed_identifiers_with_syntax = 1$/;"	v	language:Vim
+get_column_index	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^GArray* get_column_index(GPtrArray* tokens, gchar* table_name, gchar* column_name, guint sql_type, gint start) {$/;"	f	language:C++	signature:(GPtrArray* tokens, gchar* table_name, gchar* column_name, guint sql_type, gint start)
+get_forbidden_sql	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int get_forbidden_sql(GPtrArray *reg_array, char **fsql) {$/;"	f	language:C++	signature:(GPtrArray *reg_array, char **fsql)
+get_table_index	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^guint get_table_index(GPtrArray* tokens, gint* d, gint* t) {$/;"	f	language:C++	signature:(GPtrArray* tokens, gint* d, gint* t)
+handler	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void handler(int sig) {$/;"	f	language:C++	signature:(int sig)
+handler	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void handler(int sig) {$/;"	f	language:C++	signature:(int sig)
+handle_stmt_close_packet	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int handle_stmt_close_packet(GString *packet,network_mysqld_con* con) {$/;"	f	language:C++	signature:(GString *packet,network_mysqld_con* con)
+handle_stmt_execute_packet	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^network_mysqld_lua_stmt_ret handle_stmt_execute_packet(GString *packet,network_mysqld_con *con, GPtrArray *tokens) {$/;"	f	language:C++	signature:(GString *packet,network_mysqld_con *con, GPtrArray *tokens)
+handle_stmt_prepare_packet	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^network_mysqld_lua_stmt_ret handle_stmt_prepare_packet(GString *packet,network_mysqld_con* con) {$/;"	f	language:C++	signature:(GString *packet,network_mysqld_con* con)
+HASH_INSERT	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^#define HASH_INSERT(/;"	d	language:C++	file:
+HASH_INSERT	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^#define HASH_INSERT(/;"	d	language:C++	file:
+idle_ro	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int idle_ro(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+idle_rw	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int idle_rw(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+ip_table	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GHashTable *ip_table[2];$/;"	m	language:C++	struct:chassis_plugin_config	file:
+ip_table_index	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint ip_table_index;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+is_in_blacklist	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^gboolean is_in_blacklist(network_mysqld_con* con, GString* packets) {$/;"	f	language:C++	signature:(network_mysqld_con* con, GString* packets)
+is_in_blacklist	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^gboolean is_in_blacklist(GPtrArray* tokens) {$/;"	f	language:C++	signature:(GPtrArray* tokens)
+listen_con	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	network_mysqld_con *listen_con;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+log_sql	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void log_sql(network_mysqld_con* con, injection* inj) {$/;"	f	language:C++	signature:(network_mysqld_con* con, injection* inj)
+log_sql	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void log_sql(network_mysqld_con* con, injection* inj) {$/;"	f	language:C++	signature:(network_mysqld_con* con, injection* inj)
+lua_script	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar *lua_script;                \/**< script to load at the start the connection *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+lvs_ips	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **lvs_ips;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+lvs_table	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GHashTable *lvs_table;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+merge_rows	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void merge_rows(network_mysqld_con* con, injection* inj) {$/;"	f	language:C++	signature:(network_mysqld_con* con, injection* inj)
+merge_rows	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void merge_rows(network_mysqld_con* con, injection* inj) {$/;"	f	language:C++	signature:(network_mysqld_con* con, injection* inj)
+modify_charset	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_charset(GPtrArray* tokens, network_mysqld_con* con) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con)
+modify_charset	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_charset(GPtrArray* tokens, network_mysqld_con* con) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con)
+modify_db	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_db(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+modify_db	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_db(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+modify_user	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_user(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+modify_user	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void modify_user(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_connect_server) {$/;"	f	language:C++	signature:(proxy_connect_server)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_disconnect_client) {$/;"	f	language:C++	signature:(proxy_disconnect_client)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_init) {$/;"	f	language:C++	signature:(proxy_init)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_auth) {$/;"	f	language:C++	signature:(proxy_read_auth)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_auth_result) {$/;"	f	language:C++	signature:(proxy_read_auth_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_handshake) {$/;"	f	language:C++	signature:(proxy_read_handshake)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_local_infile_data) {$/;"	f	language:C++	signature:(proxy_read_local_infile_data)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_local_infile_result) {$/;"	f	language:C++	signature:(proxy_read_local_infile_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_query) {$/;"	f	language:C++	signature:(proxy_read_query)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_query_result) {$/;"	f	language:C++	signature:(proxy_read_query_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_send_local_infile_result) {$/;"	f	language:C++	signature:(proxy_send_local_infile_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_send_query_result) {$/;"	f	language:C++	signature:(proxy_send_query_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_connect_server) {$/;"	f	language:C++	signature:(proxy_connect_server)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_disconnect_client) {$/;"	f	language:C++	signature:(proxy_disconnect_client)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_init) {$/;"	f	language:C++	signature:(proxy_init)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_auth) {$/;"	f	language:C++	signature:(proxy_read_auth)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_auth_result) {$/;"	f	language:C++	signature:(proxy_read_auth_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_handshake) {$/;"	f	language:C++	signature:(proxy_read_handshake)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_local_infile_data) {$/;"	f	language:C++	signature:(proxy_read_local_infile_data)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_local_infile_result) {$/;"	f	language:C++	signature:(proxy_read_local_infile_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_query) {$/;"	f	language:C++	signature:(proxy_read_query)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_read_query_result) {$/;"	f	language:C++	signature:(proxy_read_query_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_send_local_infile_result) {$/;"	f	language:C++	signature:(proxy_send_local_infile_result)
+NETWORK_MYSQLD_PLUGIN_PROTO	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^NETWORK_MYSQLD_PLUGIN_PROTO(proxy_send_query_result) {$/;"	f	language:C++	signature:(proxy_send_query_result)
+network_mysqld_proxy_connection_init	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int network_mysqld_proxy_connection_init(network_mysqld_con *con) {$/;"	f	language:C++	signature:(network_mysqld_con *con)
+network_mysqld_proxy_connection_init	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int network_mysqld_proxy_connection_init(network_mysqld_con *con) {$/;"	f	language:C++	signature:(network_mysqld_con *con)
+network_mysqld_proxy_free	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void network_mysqld_proxy_free(network_mysqld_con G_GNUC_UNUSED *con) {$/;"	f	language:C++	signature:(network_mysqld_con G_GNUC_UNUSED *con)
+network_mysqld_proxy_free	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void network_mysqld_proxy_free(network_mysqld_con G_GNUC_UNUSED *con) {$/;"	f	language:C++	signature:(network_mysqld_con G_GNUC_UNUSED *con)
+network_mysqld_proxy_plugin_apply_config	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int network_mysqld_proxy_plugin_apply_config(chassis *chas, chassis_plugin_config *config) {$/;"	f	language:C++	signature:(chassis *chas, chassis_plugin_config *config)
+network_mysqld_proxy_plugin_apply_config	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int network_mysqld_proxy_plugin_apply_config(chassis *chas, chassis_plugin_config *oldconfig) {$/;"	f	language:C++	signature:(chassis *chas, chassis_plugin_config *oldconfig)
+network_mysqld_proxy_plugin_free	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void network_mysqld_proxy_plugin_free(chassis_plugin_config *config) {$/;"	f	language:C++	signature:(chassis_plugin_config *config)
+network_mysqld_proxy_plugin_free	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void network_mysqld_proxy_plugin_free(chassis_plugin_config *oldconfig) {$/;"	f	language:C++	signature:(chassis_plugin_config *oldconfig)
+network_mysqld_proxy_plugin_get_options	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^static GOptionEntry * network_mysqld_proxy_plugin_get_options(chassis_plugin_config *config) {$/;"	f	language:C++	file:	signature:(chassis_plugin_config *config)
+network_mysqld_proxy_plugin_get_options	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^static GOptionEntry * network_mysqld_proxy_plugin_get_options(chassis_plugin_config *oldconfig) {$/;"	f	language:C++	file:	signature:(chassis_plugin_config *oldconfig)
+network_mysqld_proxy_plugin_new	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^chassis_plugin_config * network_mysqld_proxy_plugin_new(void) {$/;"	f	language:C++	signature:(void)
+network_mysqld_proxy_plugin_new	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^chassis_plugin_config * network_mysqld_proxy_plugin_new(void) {$/;"	f	language:C++	signature:(void)
+nosharding_query_handle	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^gint nosharding_query_handle(GPtrArray *tokens, GString* packets, network_mysqld_con_lua_t *st, network_mysqld_con *con) {$/;"	f	language:C++	signature:(GPtrArray *tokens, GString* packets, network_mysqld_con_lua_t *st, network_mysqld_con *con)
+OFF	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^	OFF,$/;"	e	language:C++	enum:__anon1	file:
+OFF	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	OFF,$/;"	e	language:C++	enum:__anon2	file:
+ON	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^	ON,$/;"	e	language:C++	enum:__anon1	file:
+ON	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	ON,$/;"	e	language:C++	enum:__anon2	file:
+online	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^static gboolean online = TRUE;$/;"	v	language:C++	file:
+online	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^static gboolean online = TRUE;$/;"	v	language:C++	file:
+op	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^static gchar op = COM_QUERY;$/;"	v	language:C++	file:
+parse_sharding_keys_from_insert_or_replace_sql	/Users/wink/github/winkyao/Atlas/src/chassis-sharding.c	/^static void parse_sharding_keys_from_insert_or_replace_sql(GArray* shard_keys, const sharding_table_t *sharding_table_rule, $/;"	f	language:C++	file:	signature:(GArray* shard_keys, const sharding_table_t *sharding_table_rule, const sql_token** token, guint token_len, guint start_parse_index)
+parse_sharding_keys_from_select_or_delete_sql	/Users/wink/github/winkyao/Atlas/src/chassis-sharding.c	/^static void parse_sharding_keys_from_select_or_delete_sql(GArray* shard_keys, const sharding_table_t *sharding_table_rule, $/;"	f	language:C++	file:	signature:(GArray* shard_keys, const sharding_table_t *sharding_table_rule, const sql_token** token, guint token_len, guint start_parse_index)
+parse_sharding_keys_from_update_sql	/Users/wink/github/winkyao/Atlas/src/chassis-sharding.c	/^static void parse_sharding_keys_from_update_sql(GArray* shard_keys, const sharding_table_t *sharding_table_rule, $/;"	f	language:C++	file:	signature:(GArray* shard_keys, const sharding_table_t *sharding_table_rule, const sql_token** token, guint token_len, guint start_parse_index)
+parse_stmt_prepare_result	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int parse_stmt_prepare_result(network_packet *packet, network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_packet *packet, network_mysqld_con* con)
+plugin_init	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^G_MODULE_EXPORT int plugin_init(chassis_plugin *p) {$/;"	f	language:C++	signature:(chassis_plugin *p)
+plugin_init	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^G_MODULE_EXPORT int plugin_init(chassis_plugin *p) {$/;"	f	language:C++	signature:(chassis_plugin *p)
+pool_change_user	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint pool_change_user;            \/**< don't reset the connection, when a connection is taken from the pool$/;"	m	language:C++	struct:chassis_plugin_config	file:
+profiling	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint profiling;                   \/**< skips the execution of the read_query() function *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+proxy_lua_read_auth	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^static network_mysqld_lua_stmt_ret proxy_lua_read_auth(network_mysqld_con *con) {$/;"	f	language:C++	file:	signature:(network_mysqld_con *con)
+proxy_lua_read_auth	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^static network_mysqld_lua_stmt_ret proxy_lua_read_auth(network_mysqld_con *con) {$/;"	f	language:C++	file:	signature:(network_mysqld_con *con)
+proxy_lua_read_handshake	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^static network_mysqld_lua_stmt_ret proxy_lua_read_handshake(network_mysqld_con *con) {$/;"	f	language:C++	file:	signature:(network_mysqld_con *con)
+proxy_lua_read_handshake	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^static network_mysqld_lua_stmt_ret proxy_lua_read_handshake(network_mysqld_con *con) {$/;"	f	language:C++	file:	signature:(network_mysqld_con *con)
+proxy_plugin_get_shard_rules	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int proxy_plugin_get_shard_rules(GKeyFile *keyfile, chassis *chas, chassis_plugin_config *config) {$/;"	f	language:C++	signature:(GKeyFile *keyfile, chassis *chas, chassis_plugin_config *config)
+proxy_plugin_insert_clientips	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void proxy_plugin_insert_clientips(gchar** arg_string_array, chassis_plugin_config *config) {$/;"	f	language:C++	signature:(gchar** arg_string_array, chassis_plugin_config *config)
+proxy_plugin_insert_pwds	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int proxy_plugin_insert_pwds(gchar** arg_string_array, chassis_plugin_config *config) {$/;"	f	language:C++	signature:(gchar** arg_string_array, chassis_plugin_config *config)
+pwds	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **pwds;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+pwd_table	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GHashTable *pwd_table[2];$/;"	m	language:C++	struct:chassis_plugin_config	file:
+pwd_table_index	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint pwd_table_index;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+read_only_backend_addresses	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **read_only_backend_addresses; \/**< read-only  backends *\/$/;"	m	language:C++	struct:chassis_plugin_config	file:
+REALTIME	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^	REALTIME$/;"	e	language:C++	enum:__anon1	file:
+REALTIME	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	REALTIME$/;"	e	language:C++	enum:__anon2	file:
+rw_split	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^int rw_split(GPtrArray* tokens, network_mysqld_con* con) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con)
+rw_split	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int rw_split(GPtrArray* tokens, network_mysqld_con* con) {$/;"	f	language:C++	signature:(GPtrArray* tokens, network_mysqld_con* con)
+S	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^#define S(/;"	d	language:C++	file:
+S	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^#define S(/;"	d	language:C++	file:
+send_close_prepare	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void send_close_prepare(network_mysqld_con* con) {$/;"	f	language:C++	signature:(network_mysqld_con* con)
+sharding_get_dbgroups	/Users/wink/github/winkyao/Atlas/src/chassis-sharding.c	/^GArray* sharding_get_dbgroups(const sharding_table_t *sharding_table_rule, GPtrArray *sql_tokens, guint table_index, guint sql_type) {$/;"	f	language:C++	signature:(const sharding_table_t *sharding_table_rule, GPtrArray *sql_tokens, guint table_index, guint sql_type)
+sharding_get_shard_keys	/Users/wink/github/winkyao/Atlas/src/chassis-sharding.c	/^static GArray* sharding_get_shard_keys(const sharding_table_t *sharding_table_rule, GPtrArray *sql_tokens, $/;"	f	language:C++	file:	signature:(const sharding_table_t *sharding_table_rule, GPtrArray *sql_tokens, guint start_parse_index, guint sql_type)
+sharding_query_handle	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^gint sharding_query_handle(GPtrArray *tokens, GString* packets, network_mysqld_con *con) {$/;"	f	language:C++	signature:(GPtrArray *tokens, GString* packets, network_mysqld_con *con)
+socklen_t	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^typedef int socklen_t;$/;"	t	language:C++	file:
+socklen_t	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^typedef int socklen_t;$/;"	t	language:C++	file:
+sql_is_write	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^gboolean sql_is_write(GPtrArray *tokens) {$/;"	f	language:C++	signature:(GPtrArray *tokens)
+sql_log	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	FILE *sql_log;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+sql_log_slow_ms	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint sql_log_slow_ms;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+sql_log_type	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^SQL_LOG_TYPE sql_log_type = OFF;$/;"	v	language:C++
+SQL_LOG_TYPE	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^} SQL_LOG_TYPE;$/;"	t	language:C++	typeref:enum:__anon1	file:
+sql_log_type	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar *sql_log_type;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+sql_log_type	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^SQL_LOG_TYPE sql_log_type = OFF;$/;"	v	language:C++
+SQL_LOG_TYPE	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^} SQL_LOG_TYPE;$/;"	t	language:C++	typeref:enum:__anon2	file:
+sql_parse	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^GPtrArray* sql_parse(network_mysqld_con* con, GPtrArray* tokens) {$/;"	f	language:C++	signature:(network_mysqld_con* con, GPtrArray* tokens)
+start_proxy	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gint start_proxy;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+string_free	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^void *string_free(GString *s) {$/;"	f	language:C++	signature:(GString *s)
+tables	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar **tables;$/;"	m	language:C++	struct:chassis_plugin_config	file:
+table_name	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	gchar* table_name;$/;"	m	language:C++	struct:__anon1	file:
+table_num	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	guint table_num;$/;"	m	language:C++	struct:__anon1	file:
+table_shard_rules	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^	GHashTable *table_shard_rules;  \/\/ GHashTable<(gchar*)tablename, sharding_table_t>$/;"	m	language:C++	struct:chassis_plugin_config	file:
+test1	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void test1() {$/;"	f	language:C++	signature:()
+test2	/Users/wink/github/flike/Atlas/plugins/proxy/proxy-plugin.c	/^void test2() {$/;"	f	language:C++	signature:()
+Tlist_Exit_OnlyWindow	/Users/wink/.vimrc	/^let Tlist_Exit_OnlyWindow=1$/;"	v	language:Vim
+Tlist_Show_One_File	/Users/wink/.vimrc	/^let Tlist_Show_One_File=1$/;"	v	language:Vim
+wm	/Users/wink/.vimrc	/^nmap wm :WMToggle<cr>$/;"	m	language:Vim
+wrr_ro	/Users/wink/github/winkyao/Atlas/plugins/proxy/proxy-plugin.c	/^int wrr_ro(network_mysqld_con *con) {$/;"	f	language:C++	signature:(network_mysqld_con *con)
